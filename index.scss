@@ -1,0 +1,29 @@
+@import 'kintamieji';
+@import 'mixins';
+
+
+body {
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-size: 30px;
+}
+
+.button {
+    @include box-shadow;
+    background-color: white;
+    border-radius: 15px;
+}
+
+nav {
+    ul {
+        list-style: none;
+        a {
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                color:pink;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+body {
+  background-color: cyan;
+  color: black;
+  font-size: 30px;
+}
+
+.button {
+  box-shadow: 10px 10px lightblue;
+  background-color: white;
+  border-radius: 15px;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+nav ul a:hover {
+  color: pink;
+}/*# sourceMappingURL=index.css.map */
